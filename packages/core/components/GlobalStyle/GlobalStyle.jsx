@@ -57,6 +57,8 @@ const GlobalStyle = createGlobalStyle`
 
   body {
     background-color: #5aa;
+    margin: 0;
+    padding: 0;
   }
 
   * {

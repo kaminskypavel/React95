@@ -135,6 +135,7 @@ import info_bubble from './icons/info_bubble.ico';
 import fax_warning from './icons/fax_warning.ico';
 import cd_search from './icons/cd_search.ico';
 import cd_exe from './icons/cd_exe.ico';
+import windows95_logo from './icons/windows95_logo.ico';
 
 const path = {
   accessibility,
@@ -273,6 +274,7 @@ const path = {
   ms_dos,
   microsoft_network,
   microsoft_exchange,
+  windows95_logo,
 };
 
 export default path;
