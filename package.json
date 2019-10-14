@@ -38,7 +38,8 @@
   ],
   "scripts": {
     "commit": "git-cz",
-    "dev": "yarn workspace @react95/core storybook"
+    "dev": "lerna run start --scope=@react95/explorer --stream",
+    "storybook": "yarn workspace @react95/core storybook"
   },
   "config": {
     "commitizen": {
