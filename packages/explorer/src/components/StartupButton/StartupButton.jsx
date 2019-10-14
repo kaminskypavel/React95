@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import { Button, Icon } from '@react95/core';
 import styled from 'styled-components';
 
@@ -16,8 +17,8 @@ const StyledButton = styled(Button)`
   }
 `;
 
-const StartupButton = () => (
-  <StyledButton>
+const StartupButton = ({ onClick }) => (
+  <StyledButton onClick={onClick}>
     <Icon
       name="windows95_logo"
       style={{
@@ -29,5 +30,13 @@ const StartupButton = () => (
     Start
   </StyledButton>
 );
+
+StartupButton.propTypes = {
+  onClick: PropTypes.func,
+};
+
+StartupButton.defaultProps = {
+  onClick: undefined,
+};
 
 export default StartupButton;
