@@ -59,6 +59,7 @@ const GlobalStyle = createGlobalStyle`
     background-color: #5aa;
     margin: 0;
     padding: 0;
+    overflow: hidden;
   }
 
   * {
