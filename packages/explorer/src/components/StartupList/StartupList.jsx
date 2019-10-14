@@ -14,7 +14,7 @@ const StyledList = styled(List)`
 const Title = styled.div`
   position: absolute;
   bottom: 0;
-  left: 0;
+  left: 2px;
 
   padding-right: 2px;
   padding-top: 10px;
